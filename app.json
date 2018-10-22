@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/form/buttons/buttons",
+    "pages/basic/basic",
+    "pages/flex/moveable/moveable",
+    "pages/flex/swiper/swiper",
+    "pages/flex/scrollView/scrollView",
+    "pages/flex/direction/direction",
+    "pages/wxs/wxs",
+    "pages/wxkey/wxkey",
+    "pages/listFor/listFor",
+    "pages/dataBind/dataBind",
+    "pages/events/events",
+    "pages/test/test",
+    "pages/index/index",
+    "pages/imooc/imooctest"  
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "第一个demo",
+    "navigationBarTextStyle":"black"
+  }
+  
+}

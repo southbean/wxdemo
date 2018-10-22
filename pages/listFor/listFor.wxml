@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+    <view wx:for="{{users}}">
+        下标：{{index}},姓名：{{item.name}}
+    </view>
+    <block wx:for="{{users}}" wx:for-index="idx" wx:for-item="itemName">
+        下标：{{idx}},姓名：{{itemName.name}}
+    </block>
+    <view wx:for="{{['a','r','r','y']}}">
+        {{item}}
+    </view>
+</view>
+<view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i">
+  <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="j">
+    <view wx:if="{{i <= j}}">
+      {{i}} * {{j}} = {{i * j}}
+    </view>
+  </view>
+</view>

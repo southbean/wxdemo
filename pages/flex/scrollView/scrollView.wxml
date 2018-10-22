@@ -1,0 +1,9 @@
+<scroll-view scroll-y="true" style='height:300px;' 
+  bindscrolltoupper='scrolltoupper' bindscrolltolower='scrolltolower' 
+  upper-threshold="50" lower-threshold="0" scroll-top="0">
+  <view class='size a'>a</view>
+  <view class='size b'>b</view>
+  <view class='size c'>c</view>
+  <view class='size d'>d</view>
+  <view class='size e'>e</view>
+</scroll-view>

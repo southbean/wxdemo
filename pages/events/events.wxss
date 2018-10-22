@@ -1,0 +1,6 @@
+@import "out.wxss";
+
+.txt-css {
+  margin-top: 150rpx;
+  color: red;
+}

@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+   /* row:从左到右 */
+   /* row-reverse:从右到左 */
+   /* column:从上到下 */
+   /* column-reverse:从下到上 */
+   /* nowrap :默认不换行 */
+    /* wrap :换行 */  
+  /**flex-direction: row-reverse;**/
+  flex-direction: row;
+
+  /*** flex-start：默认左对齐  **/
+  /*** flex-end：默认右对齐  **/
+   /*** center：居中对齐  **/
+   /*** space-around：在成员元素周围包裹空白  **/
+   /*** space-between：在成员元素之间留空白  **/
+   justify-content: flex-start;
+}
+
+.size{
+  width: 100rpx;
+  height: 150rpx;
+}
+
+.a{
+  background-color: red;
+}
+.b{
+  background-color: yellow;
+}
+.c{
+  background-color: blue;
+}
+.d{
+  background-color: green;
+}
+.e{
+  background-color: orange;
+}

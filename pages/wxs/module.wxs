@@ -1,0 +1,16 @@
+var num2 = require("../wxs/num2.wxs");
+
+var name = "慕课网";
+var age = 19;
+
+var method = function(obj) {
+  console.log(num2.name);
+  console.log(num2.age);
+  return obj;
+}
+
+module.exports = {
+  name: name,
+  age: age,
+  method: method
+}

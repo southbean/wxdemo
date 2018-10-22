@@ -1,0 +1,6 @@
+<movable-area class="father-size">
+  <movable-view class='son-size' direction="all" inertia="true" out-of-bounds="true"
+      x="50" y="100" damping="10" scale="true" bindscale="doScale">
+  
+  </movable-view>
+</movable-area>

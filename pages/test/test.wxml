@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+    <text id='txt-left' class='txt-css' bindtap='clickMe'>{{mytxt}}</text>
+</view>

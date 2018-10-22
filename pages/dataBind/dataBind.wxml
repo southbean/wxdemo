@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container" id="myid-{{textid}}">
+    {{msg}}
+    <checkbox checked="{{true}}"></checkbox>
+    <checkbox checked="{{false}}"></checkbox>
+    <checkbox checked="{{flag}}"></checkbox>
+    <checkbox checked="{{unflag}}"></checkbox>
+    <view>{{a+b==3 ?'是3':'不是3'}}</view>
+    <view>{{a+b}}+{{c}}</view>
+</view>

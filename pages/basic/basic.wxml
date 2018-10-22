@@ -1,0 +1,37 @@
+<view class="group">
+  <block wx:for="{{iconSize}}">
+    <icon type="success" size="{{item}}"/>
+  </block>
+</view>
+
+<view class="group">
+  <block wx:for="{{iconType}}">
+    <icon type="{{item}}" size="40"/>
+  </block>
+</view>
+
+<view class="group">
+  <block wx:for="{{iconColor}}">
+    <icon type="success" size="40" color="{{item}}"/>
+  </block>
+</view>
+
+<view>
+  <view>文本</view>
+  <text selectable="true">这是一段文本</text>
+</view>
+
+<view>
+  <text space="{{false}}">  啊                      空格   </text>
+</view>
+
+<view>
+  <text space="{{false}}" decode='true'>&nbsp; &lt; &gt; &amp; &apos; &ensp; &emsp;</text>
+</view>
+
+<rich-text nodes="{{mycontent}}"></rich-text>
+<rich-text nodes="{{mycontent2}}"></rich-text>
+
+<progress percent="80" show-info="true" stroke-width="12"  color="pink" active />
+<progress percent="{{mypercent}}" show-info="true" active='true' active-mode='forwards' />
+<view bindtap='addPercent'>addPercent</view>
